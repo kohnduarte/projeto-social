@@ -5,6 +5,10 @@ body {
     
 }
 
+main {
+    text-align: right;
+}
+
 iframe {
     position: absolute;
     top: 50%;
@@ -21,6 +25,7 @@ img {
     border-radius: 50%;
     box-shadow: 1px 1px 5px 0px #000000b0;
     box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 img:hover {
@@ -30,11 +35,4 @@ img:hover {
     /*transition-duration: 2s, 10s, 0s;
     transition-property: border, transform, box-shadow;*/
     transition: border 0s, transform 0s, box-shadow 0s;
-}
-
-a {
-    display: block;
-    text-align: right;
-    margin-bottom: 10px;
-    
 }
