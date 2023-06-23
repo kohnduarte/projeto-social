@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100vw;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: brown;
+    margin: -5px 0;
+    padding: 10px 0;
+}
+
+a:hover {
+    background-color: #f00;
+}
