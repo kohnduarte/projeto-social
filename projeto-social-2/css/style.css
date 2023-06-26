@@ -13,3 +13,7 @@ main {
 img {
     width: 100%;
 }
+
+iframe {
+    display: block;
+}
