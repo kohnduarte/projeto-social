@@ -17,6 +17,7 @@ iframe {
     width: 265px;
     height: 473px;
     background-color: #000;
+    z-index: -1;
 }
 
 img {
