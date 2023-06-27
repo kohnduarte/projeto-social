@@ -1,17 +1,12 @@
 @charset "UTF-8";
 
 body {
-    background: url('../imagens/fundo-madeira.jpg') center/cover fixed; 
+    background: url('../imagens/frame-iphone.png') center fixed no-repeat, url('../imagens/fundo-madeira.jpg') center/cover fixed; 
     /* background-position/background-size */
 }
 
 main {
-    max-width: 311px;
-    margin: auto;
-}
-
-img {
-    /*width: 100%;*/
+    text-align: right;
 }
 
 iframe {
@@ -20,7 +15,15 @@ iframe {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 265px;
-    height: 473px;
+    height: 476px;
     /*border: none;*/
     background-color: #000;
+}
+
+a {
+    /*display: block; -> toda a largura do elemento é clicável! */
+}
+
+a + a {
+    margin-top: 100px;
 }
