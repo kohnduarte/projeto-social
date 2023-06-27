@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* { /* seletor universal */
+    margin: 0;
+}
+img {
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    /* esse pseudo-elemento não é padrão e não é aceito por todos os navegadores (Firefox) */
+}
+
+html { 
+    scrollbar-width: none; /* Firefox */
+}
+
+a {
+    display: block;
+    background-color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: -5px;
+    text-decoration: none;
+    text-shadow: -1px 1px 1px #000;
+}
+
+a:hover { /* hover = pairar, perambular */
+    background-color: #f00;
+    /*color: rgb(255, 255, 0);*/
+    letter-spacing: .5em; /* kerning */
+    /*transition-duration: 5s, 10s, 0s;
+    transition-property: background-color, color, letter-spacing;*/
+    
+    transition: letter-spacing 2s;
+}
