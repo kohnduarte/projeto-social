@@ -31,6 +31,14 @@ img#home {
 img {
     border-radius: 50%;
     margin-bottom: 3px;
+    box-shadow: -10px 0px 5px 1px #00000073;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+img:hover {
+    border: 2px solid #ffffff00;
 }
 
 a + a { 
