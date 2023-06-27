@@ -24,6 +24,16 @@ a {
     /*display: block; -> toda a largura do elemento é clicável! */
 }
 
-a + a {
-    margin-top: 100px;
+img#home {
+    margin-top: 24vh;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+
+a + a { 
+    /* elementos inline (embutidos) só podem ter margens na direita e na esquerda */
+    /*margin-top: 100px;*/
 }
