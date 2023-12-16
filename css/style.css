@@ -37,3 +37,13 @@ img:hover {
     transition-property: border, transform, box-shadow;*/
     transition: border 0s, transform 0s, box-shadow 0s;
 }
+
+img#bolinha {
+    position: absolute;
+    border: none;
+    transform: none;
+    box-shadow: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 492%);
+}
