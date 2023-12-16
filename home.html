@@ -23,11 +23,23 @@ html {
     scrollbar-width: none;
 }
 
+p#hora {
+    position: absolute;
+    color: #fff;
+    font-size: .85em;   
+    left: 50%;
+    top: -3%;
+    transform: translateX(-50%);
+}
+
     </style>
 </head>
-<body>
+<body onload="horaAgora()">
    <main>
+    <p id="hora"></p>
     <img src="imagens/tela-home.jpg" alt="tela home">
    </main> 
+
+   <script src="js/behavior.js"></script>
 </body>
 </html>
